@@ -1,6 +1,6 @@
-title: Belkirk College of Engineering
-short_title: Belkirk
-description: Belkirk Demo Site for Forestry.io
+title: PartnerHub Help Center
+short_title: Help Center
+description: Get familiar with PartnerHub in few steps
 baseurl:
 permalink: "/:path/"
 defaults:
@@ -27,7 +27,7 @@ collections:
 jekyll-archives:
   enabled: all
   layout: "archive"
-gems:
+plugins:
   - jekyll-menus
   - jekyll-feed
   - jekyll-archives
