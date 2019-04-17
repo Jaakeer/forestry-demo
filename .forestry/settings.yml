@@ -5,11 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Get Started
+  label: Help Center
 - type: document
   path: _posts/*
   label: Login
-  match: "**/*"
 - type: jekyll-posts
   label: FAQs
   create: all
