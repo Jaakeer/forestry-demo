@@ -10,17 +10,18 @@ sections:
   path: _posts/*
   label: Login
 - type: jekyll-posts
-  label: FAQs
+  label: Get Started
   create: all
   templates:
   - posts
   - post
 - type: jekyll-pages
-  label: Pages
+  label: FAQs
   create: all
   templates:
+  - default
+  - posts
   - landing-page
-  - page
 - type: directory
   path: _people
   label: People
